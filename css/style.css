@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 400;
+    background-color: #FFF;
+    color: #303030;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.promo {
+    background-image: url(../images/promo-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+}
+
+.top__logo {
+    padding: 70px 0 140px;
+}
+
+.top__text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.top__title {
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    line-height: 87px;
+}
+
+.top__subtitle {
+    font-size: 42px;
+    margin-bottom: 120px;
+    line-height: 57px;
+}
+
+.top__link {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 2px #FFF;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 37%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s;
+    margin-bottom: 250px;
+}
+
+.top__link::before {
+    content: 'записать на консультацию';
+    position: absolute;
+    bottom: 16%;
+    left: 32%;
+    width: 258px;
+}
+
+.top__link:hover {
+    background-color: #A9A32A;
+}
+
+.top__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 38px;
+}
