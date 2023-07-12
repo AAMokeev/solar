@@ -115,6 +115,7 @@ ul {
     font-weight: 700;
     line-height: 33px;
     margin-bottom: 60px;
+    text-transform: uppercase;
 }
 
 .services__inner {
@@ -142,4 +143,80 @@ ul {
 .services__item-text {
     font-size: 14px;
     line-height: 19px;
+}
+
+.tariff {
+    margin-bottom: 150px;
+}
+
+.tariff__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tariff__box {
+    max-width: 510px;
+}
+
+.tariff__slider {
+    margin-bottom: 100px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tariff__slider-text {
+    max-width: 235px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.tariff__slider-prev-arrow,
+.tariff__slider-next-arrow {
+    position: absolute;
+    bottom: -5px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.tariff__slider-prev-arrow {
+    left: 54%;
+}
+
+.tariff__slider-next-arrow {
+    left: 67%;
+}
+
+.tariff__pluses-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tariff__list-item {
+    max-width: 235px;
+    margin-bottom: 15px;
+}
+
+.tariff__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.tariff__item-text {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tariff__info-text {
+    max-width: 600px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 17px;
 }
