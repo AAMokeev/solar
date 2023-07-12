@@ -1,5 +1,8 @@
-@media (max-width: 1100px) {
-    .top {
+@media (max-width: 1150px) {
+    .top,
+    .services,
+    .tariff,
+    .solar_station {
         margin-bottom: 80px;
     }
 
@@ -9,14 +12,40 @@
 
     .services__list-item {
         max-width: 100%;
-        margin-bottom: 35px;
     }
+    
+    .services__list-item + .services__list-item {
+        margin-top: 35px;
+    }
+
+    .tariff__info-img {
+        display: none;
+    }
+
+    .tariff__inner {
+        flex-direction: column-reverse;
+    }
+
+    .tariff__info-text {
+        max-width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .tariff__pluses-list {
+        max-width: 100%;
+    }
+
 }
 
 @media (max-width: 950px) {
     .top__title {
         padding-bottom: 30px;
     }
+
+    .tariff__slider {
+        margin-bottom: 45px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -40,13 +69,17 @@
         padding-bottom: 60px;
     }
 
-    .top {
+    .top,
+    .services,
+    .tariff,
+    .solar_station {
         margin-bottom: 40px;
     }
 
     .title {
         margin-bottom: 32px;
     }
+
 }
 
 @media (max-width: 500px) {
@@ -76,4 +109,47 @@
         left: 3%;
         margin-bottom: 90px;
     }
+
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+
+    .tariff__slider-img {
+        margin-bottom: 15px;
+    }
+
+    .tariff__slider {
+        max-width: 100%;
+    }
+
+    .tariff__slider .slick-dots {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        gap: 15px;
+        position: absolute;
+        top: 0;
+        left: 300px;
+    }
+
+    .tariff__slider .slick-dots button {
+        width: 10px;
+        height: 10px;
+        background-color: #808080;
+        border: none;
+        font-size: 0;
+        border-radius: 50%;
+        opacity: .5;
+    }
+
+    .tariff__slider .slick-dots .slick-active button {
+        opacity: 1;
+        background-color: #A9A32A;
+    }
+
+    .tariff__info-text,
+    .tariff__slider {
+        margin-bottom: 25px;
+    }
+
 }
