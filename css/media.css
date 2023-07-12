@@ -1,3 +1,18 @@
+@media (max-width: 1100px) {
+    .top {
+        margin-bottom: 80px;
+    }
+
+    .services__img {
+        display: none;
+    }
+
+    .services__list-item {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
 @media (max-width: 950px) {
     .top__title {
         padding-bottom: 30px;
@@ -23,6 +38,14 @@
 
     .top__logo {
         padding-bottom: 60px;
+    }
+
+    .top {
+        margin-bottom: 40px;
+    }
+
+    .title {
+        margin-bottom: 32px;
     }
 }
 
