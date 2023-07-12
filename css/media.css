@@ -80,6 +80,12 @@
         margin-bottom: 32px;
     }
 
+    .solar_station-text {
+        font-size: 27px;
+        line-height: 42px;
+        padding: 22px 0 22px;
+    }
+
 }
 
 @media (max-width: 500px) {
