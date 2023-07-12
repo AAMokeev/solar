@@ -34,6 +34,10 @@ ul {
     margin: 0 auto;
 }
 
+.top {
+    margin-bottom: 150px;
+}
+
 .promo {
     background-image: url(../images/promo-bg.jpg);
     background-position: center;
@@ -99,4 +103,43 @@ ul {
     gap: 20px;
     align-items: center;
     padding-bottom: 38px;
+}
+
+.services {
+    margin-bottom: 150px;
+}
+
+.title {
+    color: #868585;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 60px;
+}
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__img {
+    order: 1;
+}
+
+.services__list-item {
+    margin-bottom: 50px;
+    max-width: 510px;
+    padding-right: 15px;
+}
+
+.services__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.services__item-text {
+    font-size: 14px;
+    line-height: 19px;
 }
