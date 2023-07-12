@@ -3,7 +3,8 @@
     .services,
     .tariff,
     .solar_station,
-    .steps {
+    .steps,
+    .clients {
         margin-bottom: 80px;
     }
 
@@ -44,6 +45,15 @@
         display: none;
     }
 
+    .clients__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clients__slider {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 950px) {
@@ -82,7 +92,8 @@
     .services,
     .tariff,
     .solar_station,
-    .steps {
+    .steps,
+    .clients {
         margin-bottom: 40px;
     }
 
@@ -94,6 +105,10 @@
         font-size: 27px;
         line-height: 42px;
         padding: 22px 0 22px;
+    }
+
+    .clients__list {
+        margin-bottom: 30px;
     }
 
 }
@@ -166,6 +181,18 @@
     .tariff__info-text,
     .tariff__slider {
         margin-bottom: 25px;
+    }
+
+    .clients__slider {
+        max-width: 100%;
+    }
+
+    .clients__slider-prev-arrow {
+        left: 25%
+    }
+    
+    .clients__slider-next-arrow {
+        left: 60%
     }
 
 }

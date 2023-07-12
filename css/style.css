@@ -320,11 +320,11 @@ ul {
 }
 
 .clients__slider-prev-arrow {
-    right: 40%;
+    left: 55%
 }
 
 .clients__slider-next-arrow {
-    right: 27%;
+    left: 68%
 }
 
 .clients__info-title {
