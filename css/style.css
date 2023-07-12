@@ -128,9 +128,12 @@ ul {
 }
 
 .services__list-item {
-    margin-bottom: 50px;
     max-width: 510px;
     padding-right: 15px;
+}
+
+.services__list-item + .services__list-item {
+    margin-top: 50px;
 }
 
 .services__item-title {
@@ -154,7 +157,7 @@ ul {
     justify-content: space-between;
 }
 
-.tariff__box {
+.tariff__slider {
     max-width: 510px;
 }
 
@@ -191,6 +194,10 @@ ul {
 }
 
 .tariff__pluses-list {
+    max-width: 510px;
+}
+
+.tariff__pluses-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -219,4 +226,25 @@ ul {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 17px;
+}
+
+.solar_station {
+    margin-bottom: 150px;
+}
+
+.solar_station {
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/solar_station.jpg);
+}
+
+.solar_station-text {
+    font-size: 42px;
+    line-height: 57px;
+    max-width: 673px;
+    padding: 128px 0 144px;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
 }
