@@ -54,6 +54,33 @@
         margin-bottom: 50px;
     }
 
+    .contacts {
+        flex-basis: 100%;
+        order: -1;
+    }
+
+    .contacts__title,
+    .contacts__text {
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .req {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .req__title {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        margin: 0 auto 50px auto;
+    }
+
 }
 
 @media (max-width: 950px) {
@@ -109,6 +136,15 @@
 
     .clients__list {
         margin-bottom: 30px;
+    }
+
+    .logo__footer {
+        display: none;;
+    }
+
+    .contacts__title {
+        margin-bottom: 32px;
+        margin-top: 30px;
     }
 
 }
@@ -193,6 +229,15 @@
     
     .clients__slider-next-arrow {
         left: 60%
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .menu__list {
+        margin-bottom: 30px;
     }
 
 }
